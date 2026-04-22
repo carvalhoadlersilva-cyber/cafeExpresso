@@ -9,8 +9,11 @@ O sistema visa melhorar a experiência do cliente, reduzir o tempo de espera e m
 Requisitos Funcionais Mínimos (RF)
 
 ● RF01: O sistema deve permitir o cadastro de produtos com nome e preço.
+
 ● RF02: O sistema deve permitir adicionar múltiplos itens a um pedido.
+
 ● RF03: O sistema deve calcular automaticamente o valor total do pedido.
+
 ● RF04: O sistema deve permitir a alteração do status do pedido (Pendente, Pago, Em Preparo, Finalizado).
 
 O sistema deve permitir que o cardápio de produtos seja consultado, possibilitando a seleção de itens específicos em quantidades variadas. É fundamental que o software realize o cálculo automático do valor total, considerando a soma de todos os componentes do carrinho. Além disso, o sistema deve gerenciar o ciclo de vida do pedido, passando por estados de validação que impedem, por exemplo, que um pedido seja enviado para a preparação na cozinha sem que a confirmação de pagamento tenha sido registrada. O fluxo se encerra quando o atendente sinaliza que o pedido foi finalizado e entregue ao cliente.
