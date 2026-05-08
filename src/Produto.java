@@ -1,5 +1,5 @@
 public class Produto {
-    private String nome;
+private String nome;
     private double precoUnitario;
 
     public Produto(String nome, double precoUnitario) {
